@@ -370,6 +370,7 @@
 				1EA01EA41E7B0F710035B1C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
