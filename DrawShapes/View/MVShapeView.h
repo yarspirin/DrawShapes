@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MVShapeView.h
 //  DrawShapes
 //
 //  Created by whoami on 3/16/17.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface MVShapeView : UIView
 
+@property (nonatomic) BOOL colored;
+
+- (instancetype) initWithFrame: (CGRect)frame;
 
 @end
-

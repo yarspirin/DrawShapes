@@ -9,23 +9,40 @@
 /* Begin PBXBuildFile section */
 		1EA01E901E7B0F710035B1C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA01E8F1E7B0F710035B1C4 /* main.m */; };
 		1EA01E931E7B0F710035B1C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA01E921E7B0F710035B1C4 /* AppDelegate.m */; };
-		1EA01E961E7B0F710035B1C4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA01E951E7B0F710035B1C4 /* ViewController.m */; };
 		1EA01E991E7B0F710035B1C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EA01E971E7B0F710035B1C4 /* Main.storyboard */; };
 		1EA01E9B1E7B0F710035B1C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EA01E9A1E7B0F710035B1C4 /* Assets.xcassets */; };
 		1EA01E9E1E7B0F710035B1C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EA01E9C1E7B0F710035B1C4 /* LaunchScreen.storyboard */; };
+		1EA01EA71E7B0F8C0035B1C4 /* MVMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA01EA61E7B0F8C0035B1C4 /* MVMainViewController.m */; };
+		1EA01EAA1E7B0FA20035B1C4 /* MVImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA01EA91E7B0FA20035B1C4 /* MVImageViewController.m */; };
+		1EA01EAF1E7B13FA0035B1C4 /* MVCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA01EAE1E7B13FA0035B1C4 /* MVCircleView.m */; };
+		1EA01EB21E7B14080035B1C4 /* MVSquareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA01EB11E7B14080035B1C4 /* MVSquareView.m */; };
+		1EA01EB81E7B1B3A0035B1C4 /* MVPointView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA01EB71E7B1B3A0035B1C4 /* MVPointView.m */; };
+		1EA01EBB1E7B24EC0035B1C4 /* MVShapeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA01EBA1E7B24EC0035B1C4 /* MVShapeView.m */; };
+		1EA01EBE1E7B2E570035B1C4 /* colorful_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1EA01EBD1E7B2E570035B1C4 /* colorful_background.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1EA01E8B1E7B0F710035B1C4 /* DrawShapes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawShapes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EA01E8F1E7B0F710035B1C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1EA01E911E7B0F710035B1C4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		1EA01E921E7B0F710035B1C4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1EA01E941E7B0F710035B1C4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1EA01E951E7B0F710035B1C4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1EA01E911E7B0F710035B1C4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Model/AppDelegate.h; sourceTree = "<group>"; };
+		1EA01E921E7B0F710035B1C4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Model/AppDelegate.m; sourceTree = "<group>"; };
 		1EA01E981E7B0F710035B1C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1EA01E9A1E7B0F710035B1C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1EA01E9D1E7B0F710035B1C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1EA01E9F1E7B0F710035B1C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EA01EA51E7B0F8C0035B1C4 /* MVMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MVMainViewController.h; path = Controller/MVMainViewController.h; sourceTree = "<group>"; };
+		1EA01EA61E7B0F8C0035B1C4 /* MVMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MVMainViewController.m; path = Controller/MVMainViewController.m; sourceTree = "<group>"; };
+		1EA01EA81E7B0FA20035B1C4 /* MVImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MVImageViewController.h; path = Controller/MVImageViewController.h; sourceTree = "<group>"; };
+		1EA01EA91E7B0FA20035B1C4 /* MVImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MVImageViewController.m; path = Controller/MVImageViewController.m; sourceTree = "<group>"; };
+		1EA01EAD1E7B13FA0035B1C4 /* MVCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MVCircleView.h; path = View/MVCircleView.h; sourceTree = "<group>"; };
+		1EA01EAE1E7B13FA0035B1C4 /* MVCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MVCircleView.m; path = View/MVCircleView.m; sourceTree = "<group>"; };
+		1EA01EB01E7B14080035B1C4 /* MVSquareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MVSquareView.h; path = View/MVSquareView.h; sourceTree = "<group>"; };
+		1EA01EB11E7B14080035B1C4 /* MVSquareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MVSquareView.m; path = View/MVSquareView.m; sourceTree = "<group>"; };
+		1EA01EB61E7B1B3A0035B1C4 /* MVPointView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MVPointView.h; path = View/MVPointView.h; sourceTree = "<group>"; };
+		1EA01EB71E7B1B3A0035B1C4 /* MVPointView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MVPointView.m; path = View/MVPointView.m; sourceTree = "<group>"; };
+		1EA01EB91E7B24EC0035B1C4 /* MVShapeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MVShapeView.h; path = View/MVShapeView.h; sourceTree = "<group>"; };
+		1EA01EBA1E7B24EC0035B1C4 /* MVShapeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MVShapeView.m; path = View/MVShapeView.m; sourceTree = "<group>"; };
+		1EA01EBD1E7B2E570035B1C4 /* colorful_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = colorful_background.jpg; path = ../../../Desktop/colorful_background.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +75,11 @@
 		1EA01E8D1E7B0F710035B1C4 /* DrawShapes */ = {
 			isa = PBXGroup;
 			children = (
+				1EA01EBC1E7B2E2D0035B1C4 /* Resources */,
+				1EA01EAC1E7B13D20035B1C4 /* View */,
+				1EA01EAB1E7B0FAF0035B1C4 /* Controller */,
 				1EA01E911E7B0F710035B1C4 /* AppDelegate.h */,
 				1EA01E921E7B0F710035B1C4 /* AppDelegate.m */,
-				1EA01E941E7B0F710035B1C4 /* ViewController.h */,
-				1EA01E951E7B0F710035B1C4 /* ViewController.m */,
 				1EA01E971E7B0F710035B1C4 /* Main.storyboard */,
 				1EA01E9A1E7B0F710035B1C4 /* Assets.xcassets */,
 				1EA01E9C1E7B0F710035B1C4 /* LaunchScreen.storyboard */,
@@ -77,6 +95,40 @@
 				1EA01E8F1E7B0F710035B1C4 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1EA01EAB1E7B0FAF0035B1C4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1EA01EA51E7B0F8C0035B1C4 /* MVMainViewController.h */,
+				1EA01EA61E7B0F8C0035B1C4 /* MVMainViewController.m */,
+				1EA01EA81E7B0FA20035B1C4 /* MVImageViewController.h */,
+				1EA01EA91E7B0FA20035B1C4 /* MVImageViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		1EA01EAC1E7B13D20035B1C4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1EA01EB91E7B24EC0035B1C4 /* MVShapeView.h */,
+				1EA01EBA1E7B24EC0035B1C4 /* MVShapeView.m */,
+				1EA01EAD1E7B13FA0035B1C4 /* MVCircleView.h */,
+				1EA01EAE1E7B13FA0035B1C4 /* MVCircleView.m */,
+				1EA01EB01E7B14080035B1C4 /* MVSquareView.h */,
+				1EA01EB11E7B14080035B1C4 /* MVSquareView.m */,
+				1EA01EB61E7B1B3A0035B1C4 /* MVPointView.h */,
+				1EA01EB71E7B1B3A0035B1C4 /* MVPointView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		1EA01EBC1E7B2E2D0035B1C4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1EA01EBD1E7B2E570035B1C4 /* colorful_background.jpg */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +193,7 @@
 				1EA01E9E1E7B0F710035B1C4 /* LaunchScreen.storyboard in Resources */,
 				1EA01E9B1E7B0F710035B1C4 /* Assets.xcassets in Resources */,
 				1EA01E991E7B0F710035B1C4 /* Main.storyboard in Resources */,
+				1EA01EBE1E7B2E570035B1C4 /* colorful_background.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,9 +204,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EA01E961E7B0F710035B1C4 /* ViewController.m in Sources */,
+				1EA01EA71E7B0F8C0035B1C4 /* MVMainViewController.m in Sources */,
+				1EA01EB81E7B1B3A0035B1C4 /* MVPointView.m in Sources */,
+				1EA01EAA1E7B0FA20035B1C4 /* MVImageViewController.m in Sources */,
+				1EA01EB21E7B14080035B1C4 /* MVSquareView.m in Sources */,
+				1EA01EAF1E7B13FA0035B1C4 /* MVCircleView.m in Sources */,
 				1EA01E931E7B0F710035B1C4 /* AppDelegate.m in Sources */,
 				1EA01E901E7B0F710035B1C4 /* main.m in Sources */,
+				1EA01EBB1E7B24EC0035B1C4 /* MVShapeView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
