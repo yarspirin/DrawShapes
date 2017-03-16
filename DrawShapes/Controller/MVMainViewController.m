@@ -24,7 +24,20 @@
 
 @implementation MVMainViewController
 
+#pragma mark - Delegate methods -
+
+- (BOOL) textFieldShouldReturn: (UITextField *) textField {
+  [textField resignFirstResponder];
+  return YES;
+}
+
 #pragma mark - Configure methods -
+
+- (void) configureDelegate {
+  self.pointsNumber.delegate = self;
+  self.squaresNumber.delegate = self;
+  self.circlesNumber.delegate = self;
+}
 
 - (void) configureDrawButton {
   self.drawButton.layer.cornerRadius = 5.0;
@@ -46,6 +59,7 @@
   
   [self configureDrawButton];
   [self configureTextFields];
+  [self configureDelegate];
 }
 
 - (void)didReceiveMemoryWarning {

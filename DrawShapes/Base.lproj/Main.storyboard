@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -23,39 +22,39 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Number of points" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0I1-n3-BYz">
-                                <rect key="frame" x="93" y="72" width="133" height="21"/>
+                                <rect key="frame" x="97" y="72" width="125.5" height="21"/>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Number of squares" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DJr-WW-Ca9">
-                                <rect key="frame" x="87" y="139" width="147" height="21"/>
+                                <rect key="frame" x="92.5" y="139" width="136" height="21"/>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Number of circles" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qhC-sQ-OpL">
-                                <rect key="frame" x="92" y="206" width="136" height="21"/>
+                                <rect key="frame" x="97" y="206" width="126" height="21"/>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Number of points..." textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1fM-9r-aW4">
-                                <rect key="frame" x="75" y="101" width="171" height="30"/>
+                                <rect key="frame" x="82" y="101" width="157" height="30"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Number of squares..." textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4gT-sY-1BB">
-                                <rect key="frame" x="75" y="168" width="171" height="30"/>
+                                <rect key="frame" x="82" y="168" width="157" height="30"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Number of circles..." textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Z8j-b7-JSn">
-                                <rect key="frame" x="75" y="235" width="171" height="30"/>
+                                <rect key="frame" x="82" y="235" width="157" height="30"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -71,7 +70,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Colorful shapes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3yA-sb-sVC">
-                                <rect key="frame" x="99" y="316" width="121" height="21"/>
+                                <rect key="frame" x="105" y="316" width="109.5" height="21"/>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -97,11 +96,8 @@
                         </subviews>
                         <color key="backgroundColor" red="0.012730012690355341" green="0.012730012690355341" blue="0.012730012690355341" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="0I1-n3-BYz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="77" id="3SK-67-WA5"/>
                             <constraint firstItem="0I1-n3-BYz" firstAttribute="centerX" secondItem="qhC-sQ-OpL" secondAttribute="centerX" id="5Vt-Bx-AAm"/>
                             <constraint firstItem="Bgr-RS-j9d" firstAttribute="top" secondItem="gWF-Ml-puE" secondAttribute="bottom" constant="49" id="6oI-pm-TIa"/>
-                            <constraint firstItem="DJr-WW-Ca9" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="71" id="9rc-m5-SI8"/>
-                            <constraint firstItem="1fM-9r-aW4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="59" id="ARP-Gh-MZ4"/>
                             <constraint firstItem="gWF-Ml-puE" firstAttribute="top" secondItem="DhR-El-zBw" secondAttribute="bottom" constant="8" symbolic="YES" id="GRj-AL-MQq"/>
                             <constraint firstItem="1fM-9r-aW4" firstAttribute="centerX" secondItem="DJr-WW-Ca9" secondAttribute="centerX" id="GxQ-Py-e0E"/>
                             <constraint firstItem="vqO-gu-QBB" firstAttribute="centerX" secondItem="DhR-El-zBw" secondAttribute="centerX" id="HAh-U5-Bed"/>
@@ -111,7 +107,6 @@
                             <constraint firstItem="vqO-gu-QBB" firstAttribute="top" secondItem="3yA-sb-sVC" secondAttribute="bottom" constant="8" symbolic="YES" id="U9q-np-0qY"/>
                             <constraint firstItem="qhC-sQ-OpL" firstAttribute="top" secondItem="4gT-sY-1BB" secondAttribute="bottom" constant="8" symbolic="YES" id="XR3-VE-dqL"/>
                             <constraint firstItem="1fM-9r-aW4" firstAttribute="trailing" secondItem="4gT-sY-1BB" secondAttribute="trailing" id="Z1V-iW-8Qo"/>
-                            <constraint firstItem="3yA-sb-sVC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="83" id="aio-wB-6r5"/>
                             <constraint firstItem="gWF-Ml-puE" firstAttribute="centerX" secondItem="Bgr-RS-j9d" secondAttribute="centerX" id="bxM-xO-8ck"/>
                             <constraint firstItem="Z8j-b7-JSn" firstAttribute="top" secondItem="qhC-sQ-OpL" secondAttribute="bottom" constant="8" symbolic="YES" id="dhj-oR-TOE"/>
                             <constraint firstItem="4gT-sY-1BB" firstAttribute="leading" secondItem="Z8j-b7-JSn" secondAttribute="leading" id="e7t-2n-K9g"/>
@@ -124,7 +119,6 @@
                             <constraint firstItem="DJr-WW-Ca9" firstAttribute="top" secondItem="1fM-9r-aW4" secondAttribute="bottom" constant="8" symbolic="YES" id="lYL-mi-bRR"/>
                             <constraint firstItem="4gT-sY-1BB" firstAttribute="trailing" secondItem="Z8j-b7-JSn" secondAttribute="trailing" id="uOL-ZE-ruI"/>
                             <constraint firstItem="vqO-gu-QBB" firstAttribute="leading" secondItem="gWF-Ml-puE" secondAttribute="leading" id="ufF-35-eLc"/>
-                            <constraint firstItem="qhC-sQ-OpL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="76" id="woc-h7-8sa"/>
                             <constraint firstItem="1fM-9r-aW4" firstAttribute="leading" secondItem="4gT-sY-1BB" secondAttribute="leading" id="yYt-t1-xTY"/>
                         </constraints>
                     </view>
