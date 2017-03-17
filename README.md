@@ -1,8 +1,8 @@
 ## DrawShapes
 
-[!Initial view](http://i66.tinypic.com/2jedx5h.png)
-[!Black view](http://i64.tinypic.com/9pxilh.png)
-[!Green view](http://i65.tinypic.com/f1j84.jpg)
+![Initial view](http://i66.tinypic.com/2jedx5h.png)
+![Black view](http://i64.tinypic.com/9pxilh.png)
+![Green view](http://i65.tinypic.com/f1j84.jpg)
 
 
 # Description
