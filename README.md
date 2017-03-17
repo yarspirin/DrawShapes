@@ -2,8 +2,6 @@
 
 ![Initial view](http://i65.tinypic.com/316kyer.png)
 ![Black view](http://i66.tinypic.com/ogib2e.png)
-![Green view](http://i67.tinypic.com/15fnlsm.jpg)
-
 
 ## Description
 
