@@ -18,7 +18,9 @@
   center.x = rect.size.width / 2;
   center.y = rect.size.height / 2;
   
-  int radius = rect.size.width / 2;
+  int maxRadius = rect.size.width / 2;
+  
+  int radius = arc4random() % maxRadius + 1;
   
   UIBezierPath *path = [[UIBezierPath alloc] init];
   
